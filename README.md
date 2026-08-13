@@ -122,6 +122,8 @@ LOOKUP also includes a custom animated AI processing experience to provide visua
 
 ---
 
+Windows PowerShell note: On some Windows systems, PowerShell's execution policy may prevent npm.ps1 from running. If npm run dev results in an execution-policy error, use npm.cmd run dev instead. This is a local PowerShell configuration issue and does not affect the project itself. The standard command remains npm run dev.
+
 ## Project Structure
 
 ```text
